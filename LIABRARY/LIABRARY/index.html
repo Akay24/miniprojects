@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Library Management</h1>
+    <div id="bookList"></div>
+    <form id="addBookForm">
+      <h2>Add Book</h2>
+      <div class="form-group">
+        <input type="text" id="titleInput" required>
+        <label for="titleInput">Title</label>
+      </div>
+      <div class="form-group">
+        <input type="text" id="authorInput" required>
+        <label for="authorInput">Author</label>
+      </div>
+      <div class="form-group">
+        <input type="text" id="bookIdInput" required>
+        <label for="bookIdInput">Book ID</label>
+      </div>
+      <button type="submit">Add Book</button>
+    </form>
+    <form id="issueBookForm">
+      <h2>Issue Book</h2>
+      <div class="form-group">
+        <input type="text" id="issueBookIdInput" required>
+        <label for="issueBookIdInput">Book ID</label>
+      </div>
+      <div class="form-group">
+        <input type="text" id="userInput" required>
+        <label for="userInput">User</label>
+      </div>
+      <button type="submit">Issue Book</button>
+    </form>
+    <form id="submitBookForm">
+      <h2>Submit Book</h2>
+      <div class="form-group">
+        <input type="text" id="submitBookIdInput" required>
+        <label for="submitBookIdInput">Book ID</label>
+      </div>
+      <button type="submit">Submit Book</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

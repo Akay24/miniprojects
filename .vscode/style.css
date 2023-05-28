@@ -1,0 +1,10 @@
+input[type ="text"]{
+    color: aquamarine;
+    background-color: cadetblue;
+}
+*{
+    background-color:blue;
+}
+input[type = "password"]{
+    color: aqua;
+}
